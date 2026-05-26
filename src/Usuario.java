@@ -1,22 +1,23 @@
 import java.util.ArrayList;
 
-public class Usuarios {
+public class Usuario {
     private String nome;
     private String username;
     private String password;
     private ArrayList<Papel> papeis = new ArrayList<>();
 
-    public Usuarios() {
+    public Usuario() {
     }
 
-    public Usuarios(String nome, String username, String password, ArrayList<Papel> papeis) {
+    public Usuario(String nome, String username, String password, ArrayList<Papel> papeis) {
         this.nome = nome;
         this.username = username;
         this.password = password;
         this.papeis = papeis;
     }
 
-    public Usuarios(String username, String password, String nome) {
+
+    public Usuario(String username, String password, String nome) {
         this.username = username;
         this.password = password;
         this.nome = nome;
